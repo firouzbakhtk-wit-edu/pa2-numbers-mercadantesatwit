@@ -21,6 +21,8 @@ public class PA2a {
 		int nonpositiveSum = 0;
 		int totalSum = num1 + num2 + num3 + num4 + num5;
 		
+	
+		
 		int positiveCount = 0;
 		int nonpositiveCount = 0;
 		
@@ -63,11 +65,11 @@ public class PA2a {
 		double nonpositiveAverage = (double) nonpositiveSum / nonpositiveCount;
 		double totalAverage = (double) totalSum / 5;
 		
-		 System.out.printf("The sum of the 0 positive numbers: %d%n", positiveSum);
-	        System.out.printf("The sum of the 5 non-positive numbers: %d%n", nonpositiveSum);
+		 System.out.printf("The sum of the %d positive numbers: %d%n", positiveCount, positiveSum);
+	        System.out.printf("The sum of the %d non-positive numbers: %d%n", nonpositiveCount, nonpositiveSum);
 	        System.out.printf("The sum of the 5 numbers: %d%n", totalSum);
-	        System.out.printf("The average of the 0 positive numbers: %.0f%n", positiveAverage);
-	        System.out.printf("The average of the 5 non-positive numbers: %.2f%n", nonpositiveAverage);
+	        System.out.printf("The average of the %d positive numbers: %.0f%n", positiveCount, positiveAverage);
+	        System.out.printf("The average of the %d non-positive numbers: %.2f%n", nonpositiveCount, nonpositiveAverage);
 	        System.out.printf("The average of the 5 numbers: %.2f%n", totalAverage);
 		
 			}
