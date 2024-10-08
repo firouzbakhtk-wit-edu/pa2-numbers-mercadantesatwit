@@ -8,13 +8,14 @@ public class PA2a {
 		 
 		Scanner input = new Scanner(System.in);
 		
-		System.out.printf("Enter 5 whole numbers: %n");
+		System.out.printf("Enter five whole numbers: ");
 		
 		int num1 = input.nextInt();
 		int num2 = input.nextInt();
 		int num3 = input.nextInt();
 		int num4 = input.nextInt();
 		int num5 = input.nextInt();
+		
 		
 		int positiveSum = 0;
 		int nonpositiveSum = 0;
@@ -62,12 +63,12 @@ public class PA2a {
 		double nonpositiveAverage = (double) nonpositiveSum / nonpositiveCount;
 		double totalAverage = (double) totalSum / 5;
 		
-		 System.out.printf("Sum of positive numbers: %d%n", positiveSum);
-	        System.out.printf("Sum of non-positive numbers: %d%n", nonpositiveSum);
-	        System.out.printf("Sum of all numbers: %d%n", totalSum);
-	        System.out.printf("Average of positive numbers: %.2f%n", positiveAverage);
-	        System.out.printf("Average of non-positive numbers: %.2f%n", nonpositiveAverage);
-	        System.out.printf("Average of all numbers: %.2f%n", totalAverage);
+		 System.out.printf("The sum of the 0 positive numbers: %d%n", positiveSum);
+	        System.out.printf("The sum of the 5 non-positive numbers: %d%n", nonpositiveSum);
+	        System.out.printf("The sum of the 5 numbers: %d%n", totalSum);
+	        System.out.printf("The average of the 0 positive numbers: %.0f%n", positiveAverage);
+	        System.out.printf("The average of the 5 non-positive numbers: %.2f%n", nonpositiveAverage);
+	        System.out.printf("The average of the 5 numbers: %.2f%n", totalAverage);
 		
 			}
 		}
