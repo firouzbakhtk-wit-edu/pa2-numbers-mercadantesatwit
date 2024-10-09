@@ -61,7 +61,8 @@ public class PA2b {
 			//Print both roots
 			System.out.printf("Roots: %.2f, %.2f%n", root1, root2);
 		}
-	
+	// Closes scanner
+		input.close();
 	}
 
 }
